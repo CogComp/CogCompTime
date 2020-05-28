@@ -16,14 +16,14 @@ This is the backend system of the online demo [here](http://groupspaceuiuc.com/t
 All the following commands should be run from the root dir of the project, i.e., `CogCompTime/`.
 
 ```
-git clone git@github.com:qiangning/CogCompTime.git
+git clone git@github.com:CogComp/CogCompTime.git
 cd CogCompTime
 sh scripts/install.sh # to install gurobi.jar into the local .m2 repo
 mvn compile
 ```
 
 # Resources
-Please also download `WordNet-3.0` and `TemProb.txt` from my another repo [TemProb-NAACL18](https://github.com/qiangning/TemProb-NAACL18/tree/master/data) and put them into `CogCompTime/data/` before you move forward.
+Please also download `WordNet-3.0` and `TemProb.txt` from my another repo [TemProb-NAACL18](https://github.com/CogComp/TemProb-NAACL18/tree/master/data) and put them into `CogCompTime/data/` before you move forward.
 
 # Example Usage
 If no error messages pop up, you're can move forward by
