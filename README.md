@@ -1,6 +1,6 @@
-# Description
+## Description
 This is the backend system of the online demo [here](http://groupspaceuiuc.com/temporal/).
-## Prerequisites
+### Prerequisites
 - This package was tested on Ubuntu Mate 16.04.
 - Have [maven](https://maven.apache.org/install.html) installed in your system
 - Have [Gurobi](http://www.gurobi.com/downloads/gurobi-optimizer) installed in your system and have the environment variables `GUROBI_HOME` and `GRB_LICENSE_FILE` setup in your path, as required by Gurobi. Gurobi would typically require adding the following lines to your .bashrc or .bash_profile, but please refer to Gurobi's installment instructions for details.
