@@ -1,9 +1,11 @@
 ## Description
+CogCompTime is a state-of-the-art package for understanding time in natural language text. It can automatically (1) extract time expressions (e.g., yesterday and next Monday), (2) convert time expressions to computer-understandable format (e.g., 2018-05-31), and (3) extract verb events on the main-axis of stories and the temporal relations between them (e.g., event1 is before/after event2).
 This is the backend system of the online demo [here](http://groupspaceuiuc.com/temporal/).
+
 ### Prerequisites
 - This package was tested on Ubuntu Mate 16.04.
-- Have [maven](https://maven.apache.org/install.html) installed in your system
-- Have [Gurobi](http://www.gurobi.com/downloads/gurobi-optimizer) installed in your system and have the environment variables `GUROBI_HOME` and `GRB_LICENSE_FILE` setup in your path, as required by Gurobi. Gurobi would typically require adding the following lines to your .bashrc or .bash_profile, but please refer to Gurobi's installment instructions for details.
+- [maven](https://maven.apache.org/install.html)
+- [Gurobi](http://www.gurobi.com/downloads/gurobi-optimizer) . The environment variables `GUROBI_HOME` and `GRB_LICENSE_FILE` setup in path, as required by Gurobi. Gurobi would typically require adding the following lines to .bashrc or .bash_profile (please refer to Gurobi's installment instructions for details.)
   ```
   export GUROBI_HOME=/opt/gurobi652/linux64 # "652" is the version number 6.5.2; we also tested with 8.1.0
   export PATH=$PATH:$GUROBI_HOME/bin
